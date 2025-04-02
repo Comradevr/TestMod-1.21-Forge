@@ -25,6 +25,14 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
+    public static final RegistryObject<CreativeModeTab> ALEXANDRITE_FOODS_TAB = CREATIVE_MODE_TABS.register("alexandrite_foods_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KOHLRABI.get()))
+                    .title(Component.translatable("creativetab.testmod.alexandrite_foods"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.KOHLRABI.get());
+
+                    }).build());
+
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexandrite_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALEXANDRITE_BLOCK.get()))
                     .withTabsBefore(ALEXANDRITE_ITEMS_TAB.getId())

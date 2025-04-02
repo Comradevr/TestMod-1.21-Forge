@@ -2,6 +2,7 @@
   "item.testmod.alexandrite": "Alexandrite Gem",
   "item.testmod.raw_alexandrite": "Raw Alexandrite",
   "item.testmod.chisel": "Chisel",
+  "item.testmod.kohlrabi": "Kohlrabi",
 
   "block.testmod.alexandrite_block": "Block of Alexandrite",
   "block.testmod.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -10,5 +11,7 @@
   "block.testmod.magic_block": "Magic Block",
 
   "creativetab.testmod.alexandrite_items": "Alexandrite Items",
-  "creativetab.testmod.alexandrite_blocks": "Alexandrite Blocks"
+  "creativetab.testmod.alexandrite_blocks": "Alexandrite Blocks",
+  "creativetab.testmod.alexandrite_foods": "Alexandrite Foods"
+
 }
