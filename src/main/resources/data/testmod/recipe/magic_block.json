@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "testmod:alexandrite_block"
+    },
+    "A": {
+      "item": "testmod:raw_alexandrite"
+    },
+    "S": {
+      "item": "testmod:alexandrite"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "S#A",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "testmod:magic_block"
+  }
+}

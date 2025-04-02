@@ -66,6 +66,9 @@ public class TestMod {
             event.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
             event.accept(ModBlocks.ALEXANDRITE_ORE);
         }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.MAGIC_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
